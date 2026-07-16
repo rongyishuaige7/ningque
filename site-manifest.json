@@ -1,12 +1,18 @@
 {
   "schemaVersion": 1,
   "site": "宁缺",
-  "sourceCommit": "7d40e1705113d57bbe8f6bac98bd5c5310a2e564",
-  "exportedAtUtc": "2026-07-16T14:39:07Z",
+  "sourceCommit": "1827d2e2caf2b08276139af128bdf8ce912df302",
+  "exportedAtUtc": "2026-07-16T15:49:31Z",
   "publishedRulings": 1,
   "admittedSubjects": 1,
   "files": {
-    "index.html": "f5c9621614ddca1ff55ef6865d955075cc28b421cfb65e66a468dd23dfd4a30f",
-    "canon/001-正文的骨头.html": "44e899b8d1cdb83a061888ecb6a1fb5abb8f50888a70714bbf711935d71c36a1"
-  }
+    "index.html": "3bcc302e3d80020dc0123a2545088a70ec3bd35feb399b7fc5d0da911f0acf05",
+    "canon/001-正文的骨头.html": "5ecbe5e3feacb3a7d313570c0e0dba74e3cacc056426ad55fdd1cf1c487357f7",
+    "assets/ningque-001-og.png": "28c8e75dcdae6354c94bb5a7c52261000237a56ff0fbad6b6d0db2a13b014803",
+    "assets/ningque-001-vertical.png": "9636a8e08461f0eaa1d17ed8809509f727b4e68f1a95ed6e8eef59b79b700d31",
+    "README.md": "6eef18a3de088afd2a0fc66a50403669701cf7457a315a6f2e63d9e4e336c7c8",
+    "发布文案.md": "3ef8651d042eb8fe00afab75cd73fc1e434f3591f1539c75cf9fe4a8233758f2"
+  },
+  "canonVersion": "1.1.0",
+  "responseUrl": "https://github.com/rongyishuaige7/ningque/discussions/1"
 }

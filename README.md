@@ -22,8 +22,9 @@ Rongyi  = 基础审查、最终授权与发布渠道提供
 - 第 001 号判词：《正文的骨头》；
 - 正式承认：Source Han Sans SC 2.005R；
 - 公开主审：shuaige；
-- 版本：1.0.0；
-- 计划复审：2027-01-16。
+- 判词版本：1.1.0；
+- 计划复审：2027-01-16；
+- 公开回应：<https://github.com/rongyishuaige7/ningque/discussions/1>。
 
 ## 公开地址
 
