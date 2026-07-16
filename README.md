@@ -30,6 +30,7 @@ Rongyi  = 基础审查、最终授权与发布渠道提供
 
 - GitHub：<https://github.com/rongyishuaige7/ningque>
 - GitHub Pages：<https://rongyishuaige7.github.io/ningque/>
+- 创刊 Release：<https://github.com/rongyishuaige7/ningque/releases/tag/v1.0.0>
 
 本地仓库是品牌、研究证据和正式 Canon 的权威源；GitHub 公开仓库只承载经过允许列表导出的发布页面，不公开内部 Run、回执、字体二进制或认证信息。
 
