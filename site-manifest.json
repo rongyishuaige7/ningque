@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "site": "宁缺",
+  "sourceCommit": "7d40e1705113d57bbe8f6bac98bd5c5310a2e564",
+  "exportedAtUtc": "2026-07-16T14:39:07Z",
+  "publishedRulings": 1,
+  "admittedSubjects": 1,
+  "files": {
+    "index.html": "f5c9621614ddca1ff55ef6865d955075cc28b421cfb65e66a468dd23dfd4a30f",
+    "canon/001-正文的骨头.html": "44e899b8d1cdb83a061888ecb6a1fb5abb8f50888a70714bbf711935d71c36a1"
+  }
+}

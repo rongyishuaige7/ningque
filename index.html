@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--
+  STATUS: 宁缺已创刊。正式判词 1，正式承认 1。
+  品牌与内容权威状态见 brand/README.md；页面不是事实源。
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0b0b0d">
+<title>宁缺｜第 001 号判词《正文的骨头》</title>
+<meta name="description" content="宁缺是一份持续发布品味裁决的独立审美公报。第 001 号判词《正文的骨头》已成文，承认 Source Han Sans SC 2.005R。">
+<style>
+  :root{
+    --ground:#0b0b0d;
+    --ground-2:#121216;
+    --bone:#e8e5de;
+    --bone-dim:#b7b4ab;
+    --mute:#85858d;
+    --line:#313138;
+    --seal:#c6382b;
+    --seal-text:#df4e40;
+    --sans:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+    --song:"Songti SC","Noto Serif CJK SC","SimSun",serif;
+    --mono:"Noto Sans Mono CJK SC",ui-monospace,"SF Mono","Menlo","Cascadia Code",monospace;
+  }
+  *{box-sizing:border-box;}
+  html{background:var(--ground);}
+  body{margin:0;background:var(--ground);color:var(--bone);font-family:var(--sans);-webkit-font-smoothing:antialiased;
+       text-rendering:optimizeLegibility;line-height:1.6;font-variant-numeric:tabular-nums;}
+  ::selection{background:var(--seal);color:#fff;}
+  a{color:inherit;}
+  .skip-link{position:fixed;z-index:10;left:1rem;top:1rem;padding:.7rem .9rem;background:var(--bone);color:var(--ground);
+             font-weight:800;transform:translateY(-180%);}
+  .skip-link:focus{transform:none;outline:2px solid var(--seal-text);outline-offset:3px;}
+  main:focus{outline:none;}
+  .wrap{width:min(100%,1080px);margin:0 auto;padding-inline:clamp(1.4rem,6vw,5rem);}
+  .col{max-width:42rem;}
+  .ruled{border-bottom:2px solid var(--seal);padding-bottom:.02em;color:var(--bone);}
+
+  .masthead{padding-block:clamp(1.6rem,4vw,2.6rem) 0;}
+  .mh-top{display:flex;align-items:flex-end;justify-content:space-between;gap:1.2rem 1.5rem;flex-wrap:wrap;}
+  .mh-name{display:flex;align-items:center;gap:.75em;}
+  .wordmark{font-weight:900;font-size:clamp(2.1rem,5.6vw,3.5rem);letter-spacing:.16em;line-height:1;}
+  .seal-sq{width:2.9rem;height:2.9rem;flex:0 0 auto;position:relative;border:1.5px solid var(--seal);
+           display:grid;place-items:center;color:var(--bone);}
+  .seal-sq::before{content:"";position:absolute;inset:3px;border:1px solid var(--seal);opacity:.7;}
+  .seal-sq span{position:relative;font-weight:800;font-size:.8rem;letter-spacing:.02em;line-height:1;}
+  .mh-motto{font-family:var(--song);font-style:italic;color:var(--bone-dim);font-size:clamp(.92rem,1.5vw,1.1rem);}
+  .rule{height:1px;background:var(--line);margin-top:clamp(1.2rem,3vw,1.8rem);transform-origin:left;}
+  .mh-meta{display:flex;gap:.75rem 2.4rem;flex-wrap:wrap;padding-top:.95rem;font-family:var(--mono);font-size:.72rem;
+           letter-spacing:.16em;color:var(--mute);}
+  .mh-meta b{color:var(--bone);font-weight:700;}
+
+  .hero{padding-block:clamp(4.2rem,13vh,8.4rem) clamp(4.6rem,13vh,8.6rem);}
+  .kicker{font-family:var(--mono);font-size:.75rem;letter-spacing:.22em;color:var(--mute);margin:0 0 clamp(1.6rem,4vw,2.4rem);}
+  .verdict{font-weight:900;font-size:clamp(2.65rem,7vw,5rem);line-height:1.02;letter-spacing:-.025em;
+           margin:0;text-wrap:balance;max-width:13em;}
+  .lede{font-size:clamp(1.08rem,1.8vw,1.35rem);color:var(--bone-dim);margin:clamp(1.7rem,4vw,2.3rem) 0 0;
+        max-width:31em;line-height:1.72;}
+  .lede strong{color:var(--bone);font-weight:800;}
+
+  .sec{padding-block:clamp(3.6rem,9vh,6.4rem);border-top:1px solid var(--line);}
+  .section-kicker{display:block;margin:0 0 1.2rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.18em;color:var(--mute);}
+  .stance-lead{font-size:clamp(1.35rem,2.6vw,1.95rem);font-weight:800;line-height:1.42;letter-spacing:-.01em;
+               margin:0 0 1.7rem;max-width:22em;}
+  .stance-body{font-family:var(--song);font-size:1.1rem;line-height:2;color:var(--bone-dim);margin:0;max-width:38rem;}
+  .stance-body strong{color:var(--bone);font-weight:700;}
+
+  .principles{list-style:none;padding:0;margin:2.8rem 0 0;display:grid;gap:0;max-width:42rem;border-top:1px solid var(--line);}
+  .principles li{display:grid;grid-template-columns:6.5em 1fr;gap:1.3em;align-items:start;padding-block:1.2rem;border-bottom:1px solid var(--line);}
+  .principles .t{font-weight:800;letter-spacing:.02em;}
+  .principles .d{color:var(--bone-dim);font-family:var(--song);line-height:1.75;}
+  .editorial-line{margin:2.5rem 0 0;font-size:1.12rem;line-height:1.8;max-width:37em;}
+  .editorial-line strong{font-weight:800;}
+
+  .canon-head{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:clamp(1.6rem,4vw,2.4rem);}
+  .canon-title{font-weight:900;font-size:clamp(1.7rem,3.4vw,2.4rem);letter-spacing:-.01em;margin:0;}
+  .canon-count{font-family:var(--mono);font-size:.75rem;letter-spacing:.16em;color:var(--bone-dim);}
+  .notice{background:var(--ground-2);border:1px solid var(--line);padding:clamp(1.6rem,5vw,3.6rem);}
+  .docket{display:grid;grid-template-columns:repeat(4,minmax(0,auto));gap:1rem 2.6rem;justify-content:start;
+          padding-bottom:1.7rem;margin-bottom:2.2rem;border-bottom:1px solid var(--line);}
+  .docket div{display:grid;gap:.5em;}
+  .docket .k{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;color:var(--mute);}
+  .docket .v{font-weight:800;font-size:1.02rem;letter-spacing:.04em;}
+  .docket .v.status{color:var(--seal-text);}
+  .notice-title{font-weight:800;font-size:clamp(1.45rem,2.8vw,2.1rem);line-height:1.4;letter-spacing:-.01em;
+                margin:0 0 1.6rem;max-width:22em;}
+  .notice-body{font-family:var(--song);font-size:1.08rem;line-height:1.95;color:var(--bone-dim);margin:0;max-width:37em;}
+  .notice-body strong{color:var(--bone);font-weight:700;}
+  .gate{list-style:none;padding:0;margin:2rem 0 0;display:grid;gap:0;max-width:38rem;border-top:1px solid var(--line);}
+  .gate li{display:grid;grid-template-columns:5em 1fr;gap:1.2em;padding-block:1.05rem;border-bottom:1px solid var(--line);align-items:start;}
+  .gate .tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;color:var(--mute);padding-top:.2em;}
+  .gate p{margin:0;color:var(--bone-dim);font-family:var(--song);line-height:1.8;}
+  .prototype-note{display:grid;grid-template-columns:6.5em 1fr;gap:1.3em;margin:2.2rem 0 0;padding-top:1.4rem;
+                  border-top:1px solid var(--line);}
+  .prototype-note__tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;color:var(--mute);padding-top:.2em;}
+  .prototype-note p{margin:0;color:var(--bone-dim);font-family:var(--song);line-height:1.85;max-width:36em;}
+  .coda{margin:2.3rem 0 0;font-family:var(--song);font-style:italic;color:var(--bone);font-size:1.12rem;}
+
+  .closing-title{font-weight:900;font-size:clamp(1.9rem,4.2vw,3rem);line-height:1.12;letter-spacing:-.02em;
+                 margin:0 0 1.3rem;max-width:16em;}
+  .closing-body{color:var(--bone-dim);font-size:1.1rem;line-height:1.78;margin:0;max-width:31em;}
+  .closing-note{font-family:var(--mono);font-size:.72rem;line-height:1.75;letter-spacing:.08em;color:var(--mute);
+                margin:1.7rem 0 0;max-width:46em;}
+
+  footer{border-top:1px solid var(--line);padding-block:clamp(2.6rem,6vw,3.6rem) clamp(2rem,5vw,3rem);
+         display:flex;justify-content:space-between;align-items:baseline;gap:.8rem 1.6rem;flex-wrap:wrap;}
+  footer .sig{font-weight:800;letter-spacing:.2em;}
+  footer .say{font-family:var(--song);font-style:italic;color:var(--bone-dim);}
+  footer .yr{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;color:var(--mute);margin-left:auto;}
+
+  @media(max-width:620px){
+    .docket{grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem;}
+    .principles li,.gate li,.prototype-note{grid-template-columns:1fr;gap:.45rem;}
+    .mh-motto{margin-left:auto;}
+  }
+  @media(max-width:350px){
+    .mh-top{align-items:flex-start;}
+    .mh-motto{width:100%;margin-left:0;}
+  }
+  @media(prefers-reduced-motion:no-preference){
+    html{scroll-behavior:smooth;}
+    .skip-link{transition:transform .15s ease;}
+    .rule{transform:scaleX(0);animation:draw 1.1s cubic-bezier(.16,1,.3,1) .12s forwards;}
+    @keyframes draw{to{transform:scaleX(1);}}
+    .reveal{opacity:0;transform:translateY(10px);animation:rise .8s cubic-bezier(.16,1,.3,1) forwards;}
+    .d1{animation-delay:.1s}.d2{animation-delay:.24s}
+    @keyframes rise{to{opacity:1;transform:none;}}
+  }
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="wrap">
+    <header class="masthead" aria-label="宁缺报头">
+      <div class="mh-top">
+        <div class="mh-name" aria-label="宁缺">
+          <span class="seal-sq" aria-hidden="true"><span>宁缺</span></span>
+          <span class="wordmark">宁缺</span>
+        </div>
+        <span class="mh-motto">逢平庸，则缺。</span>
+      </div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="mh-meta" aria-label="公报状态">
+        <span>独立审美公报</span>
+        <span>正式判词 <b data-canon-rulings>1</b></span>
+        <span>承认名录 <b data-canon-admissions>1</b></span>
+        <span>状态 <b>已创刊</b></span>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="kicker reveal">第 001 号判词 · 已成文</p>
+        <h1 class="verdict reveal d1" id="hero-title">正文的骨头。</h1>
+        <p class="lede reveal d2"><strong>宁缺承认 Source Han Sans SC 2.005R。</strong>不是因为它最有性格，而是因为它最知道正文何时该退后。</p>
+      </section>
+
+      <section class="sec" aria-labelledby="position-title">
+        <div class="col">
+          <span class="section-kicker">立场 · POSITION</span>
+          <h2 class="stance-lead" id="position-title">替你否决，<br><span class="ruled">不替你拥有品味。</span></h2>
+          <p class="stance-body">宁缺替读者承担筛选、论证和公开负责的成本。面对产品、承诺和机制，我们说清楚为什么否决；只有在证据足够时，才对极少数说“承认”。<strong>结论可以强硬，读者可以不同意。</strong></p>
+
+          <ul class="principles" aria-label="宁缺的三项编辑原则">
+            <li><span class="t">公开判据</span><span class="d">先写清标准，再给结论；不靠语气冒充权威。</span></li>
+            <li><span class="t">允许暂缺</span><span class="d">没有达到标准的对象，就不制造一席。零入选也是结果。</span></li>
+            <li><span class="t">持续负责</span><span class="d">披露利益、保留修订；判断错了，公开更正，必要时除名。</span></li>
+          </ul>
+
+          <p class="editorial-line">宁缺的锋芒对准<strong>产品、承诺和机制</strong>，不审判选择它的人。流行不等于平庸，冷门也不自动等于好。</p>
+        </div>
+      </section>
+
+      <section class="sec" aria-labelledby="canon-title">
+        <div class="canon-head">
+          <h2 class="canon-title" id="canon-title">承认名录</h2>
+          <span class="canon-count">正式判词 <span data-canon-rulings>1</span> · 正式承认 <span data-canon-admissions>1</span></span>
+        </div>
+
+        <article class="notice" aria-labelledby="notice-title">
+          <div class="docket" aria-label="正式判词元数据">
+            <div><span class="k">正式编号</span><span class="v">001</span></div>
+            <div><span class="k">承认对象</span><span class="v">Source Han Sans SC</span></div>
+            <div><span class="k">主审</span><span class="v">shuaige</span></div>
+            <div><span class="k">状态</span><span class="v status">正式成文</span></div>
+          </div>
+
+          <h3 class="notice-title" id="notice-title">第 001 号：正文的骨头</h3>
+          <p class="notice-body"><strong>在合法自托管、Regular 400、简体中文连续长文和网页正文的范围内，宁缺承认 Source Han Sans SC 2.005R。</strong>承认不等于人人适合。判词公开它的 11.54 MB Full WOFF2 代价、Sarasa 的最强反例，以及没有真人盲读和跨平台验收的边界。</p>
+
+          <ul class="gate" aria-label="第 001 号判词摘要">
+            <li><span class="tag">承认</span><p>Source Han Sans SC 2.005R：更少预设，适合作为长期承载中文长文的默认骨架。</p></li>
+            <li><span class="tag">否决</span><p>Sarasa Gothic SC 1.0.40：混排更完整，但额外的 Inter 人格不是本期必要性。</p></li>
+            <li><span class="tag">否决</span><p>IBM Plex Sans Chinese SC 1.1.0：交付更轻、气质更清楚，却不适合作为通用长文默认底色。</p></li>
+            <li><span class="tag">复审</span><p>计划复审日期为 2027-01-16；版本、许可、交付或平台反例可触发提前复审。</p></li>
+          </ul>
+
+          <p class="coda"><a href="canon/001-正文的骨头.html">阅读完整判词与事实边界</a></p>
+        </article>
+      </section>
+
+      <section class="sec" aria-labelledby="closing-title">
+        <span class="section-kicker">编辑状态 · EDITORIAL STATUS</span>
+        <h2 class="closing-title" id="closing-title">第一声“承认”，已经落下。</h2>
+        <p class="closing-body">第一篇判词没有等一套无限扩张的研究平台替主审负责。事实守住边界，主审承担判断，未来反例进入复审。订阅与公开回应仍未开放；没有真实链路，宁缺就不留下假按钮。</p>
+        <p class="closing-note">当前状态：已创刊 · 正式判词 1 · 正式承认 1 · 第 001 号版本 1.0.0 · 公开回应尚未开放</p>
+      </section>
+    </main>
+
+    <footer>
+      <span class="sig">宁缺 NING QUE</span>
+      <span class="say">逢平庸，则缺。</span>
+      <span class="yr">独立审美公报 · © 2026</span>
+    </footer>
+  </div>
+</body>
+</html>
