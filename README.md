@@ -19,9 +19,10 @@ Rongyi  = 基础审查、最终授权与发布渠道提供
 
 ## 当前正式内容
 
-- 正式判词 2 篇，正式承认 1 项；
+- 正式判词 3 篇，正式承认 2 项；
 - 第 001 号《正文的骨头》：承认 Source Han Sans SC 2.005R，版本 1.1.0，计划于 2027-01-16 复审，[Discussion #1](https://github.com/rongyishuaige7/ningque/discussions/1)；
 - 第 002 号《压小之前》：Squoosh、TinyPNG 与 iLoveIMG 本期暂缺，版本 1.0.0，计划于 2027-01-17 复审，[Discussion #2](https://github.com/rongyishuaige7/ningque/discussions/2)；
+- 第 003 号《写字的时候，工具应该退后》：在本期 Linux 单篇本地中文 Markdown 短稿范围内承认 Typora 1.13.6，版本 1.0.0，计划于 2027-01-18 复审，[Discussion #3](https://github.com/rongyishuaige7/ningque/discussions/3)；
 - 公开主审：shuaige。
 
 ## 公开地址

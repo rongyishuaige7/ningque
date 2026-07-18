@@ -1,27 +1,32 @@
 {
   "schemaVersion": 1,
   "site": "宁缺",
-  "sourceCommit": "a372de548d4ca1b08cd436b7bce3a3134442242d",
-  "exportedAtUtc": "2026-07-18T03:58:20Z",
-  "publishedRulings": 2,
-  "admittedSubjects": 1,
+  "sourceCommit": "317b9069c2b550b5964f8c027b643a0da21230b8",
+  "exportedAtUtc": "2026-07-18T09:27:13Z",
+  "publishedRulings": 3,
+  "admittedSubjects": 2,
   "files": {
-    "index.html": "59fe8b6ee4868ab741f144185b4c97bdcb185d05ed669d3052a1dfd6b18939cf",
-    "canon/001-正文的骨头.html": "b5215c08a21d8d3e9c4dead8c4e62223e979f7fa96730e3f8a86c2677b6c9ab1",
-    "canon/002-压小之前.html": "7d5a0f47ec2e7b390214bbf0bf1001ae5c98caf9d7ff9aa6d3fccb97984e5c46",
+    "index.html": "b4849ba72ea190e4953b41f74ca44f581877edf173fa2035d79284bdf1e41b29",
+    "canon/001-正文的骨头.html": "7d5fce5f900c64a10df57f78610fa674a35ba7146e36f79dc6722b8b4827e52a",
+    "canon/002-压小之前.html": "57e670a1b7946ff1cf148983a8c054139f3a3b904599e6cc7d363368186f2b25",
+    "canon/003-写字的时候，工具应该退后.html": "e5f7ce813a0150fd6fe47e2614916a01c9d3a0ca375f6bae4722f5290b3d70db",
     "assets/ningque-001-og.png": "28c8e75dcdae6354c94bb5a7c52261000237a56ff0fbad6b6d0db2a13b014803",
     "assets/ningque-001-vertical.png": "9636a8e08461f0eaa1d17ed8809509f727b4e68f1a95ed6e8eef59b79b700d31",
     "assets/ningque-002-og.png": "701bad63af49babbf186928c92a2e888402cb188fa1f10ddc6622ac521a93611",
-    "README.md": "3fb6ddb6dead82cc7fbbcc5e18b85b839056d112ab5ce3a305a23ac84fbc3e76",
+    "assets/ningque-003-og.png": "21ccf991cd704bdfd7e08c0df6bc9c8ee6c605fc9a50ddb216dd4544ff8eda7b",
+    "README.md": "74d577ebb5aa5fced8e495baa51ae165e23fbef6dbbce0d4859ac3415ec4d5fb",
     "发布文案.md": "3ef8651d042eb8fe00afab75cd73fc1e434f3591f1539c75cf9fe4a8233758f2",
-    "第002号发布文案.md": "4fef27c72c3041bb0367a844920729b730d62430a97ce526546f31e4f8243a67"
+    "第002号发布文案.md": "4fef27c72c3041bb0367a844920729b730d62430a97ce526546f31e4f8243a67",
+    "第003号发布文案.md": "ded7d732d5c423b51e436e62706b259984bf442ce3e4b63c65f6455e15000543"
   },
   "canonVersions": {
     "001": "1.1.0",
-    "002": "1.0.0"
+    "002": "1.0.0",
+    "003": "1.0.0"
   },
   "responseUrls": {
     "001": "https://github.com/rongyishuaige7/ningque/discussions/1",
-    "002": "https://github.com/rongyishuaige7/ningque/discussions/2"
+    "002": "https://github.com/rongyishuaige7/ningque/discussions/2",
+    "003": "https://github.com/rongyishuaige7/ningque/discussions/3"
   }
 }
