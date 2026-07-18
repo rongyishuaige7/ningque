@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "site": "宁缺",
-  "sourceCommit": "34738636371dad3cb61f27e4a2e1e33376c6c235",
-  "exportedAtUtc": "2026-07-17T03:20:45Z",
+  "sourceCommit": "a372de548d4ca1b08cd436b7bce3a3134442242d",
+  "exportedAtUtc": "2026-07-18T03:58:20Z",
   "publishedRulings": 2,
   "admittedSubjects": 1,
   "files": {
@@ -13,7 +13,8 @@
     "assets/ningque-001-vertical.png": "9636a8e08461f0eaa1d17ed8809509f727b4e68f1a95ed6e8eef59b79b700d31",
     "assets/ningque-002-og.png": "701bad63af49babbf186928c92a2e888402cb188fa1f10ddc6622ac521a93611",
     "README.md": "3fb6ddb6dead82cc7fbbcc5e18b85b839056d112ab5ce3a305a23ac84fbc3e76",
-    "发布文案.md": "3ef8651d042eb8fe00afab75cd73fc1e434f3591f1539c75cf9fe4a8233758f2"
+    "发布文案.md": "3ef8651d042eb8fe00afab75cd73fc1e434f3591f1539c75cf9fe4a8233758f2",
+    "第002号发布文案.md": "4fef27c72c3041bb0367a844920729b730d62430a97ce526546f31e4f8243a67"
   },
   "canonVersions": {
     "001": "1.1.0",
